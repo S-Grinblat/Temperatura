@@ -1,0 +1,29 @@
+body {
+    background-image: url(https://images.pexels.com/photos/1162251/pexels-photo-1162251.jpeg?auto=compress&cs=tinysrgb&w=600);
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container {
+    background-color: rgba(65, 49, 99, .9);
+    width: 400px;
+    color: #fff;
+    padding: 32px;
+    text-align: center;
+    border: 3px solid #fff;
+}
+.container select {
+    background-color: rgba(255, 255, 255, 0.4);
+    color: #000;
+    width: 100%;
+    padding: 5px;
+    font-size: 1.2rem;
+    text-align: center;
+}
+.container h2 {
+    font-size: 3rem;
+    letter-spacing: 4px;
+}
